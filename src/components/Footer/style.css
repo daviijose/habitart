@@ -1,0 +1,45 @@
+.footer-page{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); 
+    padding: 30px;
+}
+.text-about{
+    width: 40%;
+    margin: 30px;
+    font-size: 17px;
+    line-height: 20px;
+    color: white;
+    
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 40px;
+}
+.content-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 40px;
+}
+.link-rede-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin: 15px;
+}
+.content-contact{
+    color: white;
+}
